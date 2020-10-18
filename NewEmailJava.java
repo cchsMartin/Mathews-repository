@@ -15,7 +15,7 @@ public class NewEmailJava {
 		System.out.println("What is your first name");// creates first name and inital
 		String firstName = input.nextLine();
 		firstName = firstName.toLowerCase();
-		
+		//you don't NEED a variable for the initials, you can just use a substring.
 		String firstInital = firstName.toUpperCase().substring(0,1);
 		
 		
